@@ -1,4 +1,3 @@
-//fetch html elements:
 const questionElement = document.getElementById("question")
 const optionsElement  = document.getElementById("options")
 const nextBtn = document.getElementById("Nextbtn")
@@ -8,22 +7,20 @@ const formContainer = document.getElementById("formContainer");
 const startQuizBtn = document.getElementById("startQuizBtn");
 const quizContainer = document.getElementById("quizContainer");
 
-//Globala variables:
+
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let timeLeft = 1800;
 let timer;
 
-// UPDATED: check element exists before using it
+// check element exists before using it
 if (getStartedBtn) {
   getStartedBtn.onclick = function () {
     formContainer.style.display = "flex";
   };
 }
 
-
-// UPDATED
 if (startQuizBtn) {
   startQuizBtn.onclick = function () {
 
@@ -106,11 +103,11 @@ function startTimer() {
 
     timeLeft--;
 
-    // UPDATED: convert seconds to minutes
+    // convert seconds to minutes
     const minutes = Math.floor(timeLeft / 60);
     const seconds = timeLeft % 60;
 
-    // UPDATED: format seconds to always show 2 digits
+    // format seconds to always show 2 digits
     const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
 
     timerElement.textContent = "Time: " + minutes + ":" + formattedSeconds;
@@ -154,18 +151,18 @@ function showResults() {
     nextBtn.style.display = "none";
   }
 
-  // GET USER DETAILS
+  // Get user details
   const name = localStorage.getItem("userName");
   const email = localStorage.getItem("userEmail");
 
-  // EMAIL DATA
+  // Email data
   const templateParams = {
     user_name: name,
     user_email: email,
     quiz_score: score + "/" + questions.length
   };
 
-  // SEND EMAIL
+  // Send email
   emailjs.send("service_i6gb6lp", "template_uvfvffg", templateParams)
   .then(function(response) {
       console.log("Email sent successfully", response);
