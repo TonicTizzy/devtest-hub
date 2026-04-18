@@ -1,0 +1,580 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Tech Modern Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Mark Language"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which language is used for styling?",
+    "options": [
+      "HTML",
+      "Python",
+      "CSS",
+      "C++"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method is used to fetch data in JavaScript?",
+    "options": [
+      "getData()",
+      "fetch()",
+      "retrieve()",
+      "request()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which HTML tag creates a hyperlink?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which HTML tag is used for the largest heading?",
+    "options": [
+      "<h6>",
+      "<heading>",
+      "<h1>",
+      "<head>"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property changes text color?",
+    "options": [
+      "font-color",
+      "text-color",
+      "color",
+      "style-color"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": [
+      "//",
+      "##",
+      "<!-- -->",
+      "**"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML tag is used to display images?",
+    "options": [
+      "<picture>",
+      "<img>",
+      "<image>",
+      "<src>"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which CSS property controls text size?",
+    "options": [
+      "font-size",
+      "text-style",
+      "size",
+      "font-style"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Netscape",
+      "IBM"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which HTML element is used for a line break?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<br>",
+      "<line>"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property sets the background color?",
+    "options": [
+      "background",
+      "bgcolor",
+      "background-color",
+      "color-background"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword declares a variable in JavaScript?",
+    "options": [
+      "var",
+      "int",
+      "string",
+      "define"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML tag is used to create a list?",
+    "options": [
+      "<ul>",
+      "<list>",
+      "<li>",
+      "<ol>"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which CSS property controls spacing inside elements?",
+    "options": [
+      "margin",
+      "padding",
+      "spacing",
+      "border"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which JavaScript function displays an alert box?",
+    "options": [
+      "alert()",
+      "message()",
+      "popup()",
+      "show()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML tag defines a paragraph?",
+    "options": [
+      "<text>",
+      "<p>",
+      "<paragraph>",
+      "<pg>"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which CSS property adds space outside elements?",
+    "options": [
+      "margin",
+      "padding",
+      "border",
+      "space"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which JavaScript operator is used for addition?",
+    "options": [
+      "+",
+      "*",
+      "-",
+      "%"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML attribute specifies an image path?",
+    "options": [
+      "href",
+      "src",
+      "link",
+      "path"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which CSS property makes text bold?",
+    "options": [
+      "font-weight",
+      "text-bold",
+      "style-bold",
+      "font-style"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol ends a JavaScript statement?",
+    "options": [
+      ":",
+      ";",
+      ",",
+      "."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which HTML tag creates an ordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which CSS property changes font type?",
+    "options": [
+      "font-family",
+      "font-style",
+      "text-family",
+      "font-type"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which JavaScript keyword defines a constant?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "answer": 2
+  },
+
+  {
+    "question": "Which HTML tag contains metadata?",
+    "options": [
+      "<meta>",
+      "<head>",
+      "<data>",
+      "<info>"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which CSS property adds borders?",
+    "options": [
+      "outline",
+      "border",
+      "frame",
+      "edge"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which JavaScript loop repeats code while a condition is true?",
+    "options": [
+      "for",
+      "loop",
+      "while",
+      "repeat"
+    ],
+    "answer": 2
+  },
+
+  {
+    "question": "Which HTML tag is used for tables?",
+    "options": [
+      "<table>",
+      "<tab>",
+      "<grid>",
+      "<row>"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which CSS property aligns text?",
+    "options": [
+      "text-align",
+      "font-align",
+      "align-text",
+      "text-position"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which JavaScript function writes to the console?",
+    "options": [
+      "console.log()",
+      "print()",
+      "write()",
+      "debug()"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which HTML tag creates a button?",
+    "options": [
+      "<btn>",
+      "<button>",
+      "<click>",
+      "<press>"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which CSS property controls element width?",
+    "options": [
+      "width",
+      "size",
+      "length",
+      "max-width"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which JavaScript statement is used for conditions?",
+    "options": [
+      "if",
+      "when",
+      "case",
+      "select"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which HTML tag creates a form?",
+    "options": [
+      "<form>",
+      "<input>",
+      "<submit>",
+      "<data>"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which CSS property hides elements?",
+    "options": [
+      "display:none",
+      "hide",
+      "visibility:hidden",
+      "remove"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which JavaScript keyword stops a loop?",
+    "options": [
+      "stop",
+      "break",
+      "exit",
+      "end"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which HTML tag is used for input fields?",
+    "options": [
+      "<field>",
+      "<input>",
+      "<textbox>",
+      "<text>"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which CSS property sets element height?",
+    "options": [
+      "height",
+      "size",
+      "length",
+      "max-height"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which JavaScript keyword defines a function?",
+    "options": [
+      "method",
+      "function",
+      "def",
+      "create"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which HTML tag is used for navigation links?",
+    "options": [
+      "<nav>",
+      "<menu>",
+      "<links>",
+      "<navigate>"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which CSS property makes elements flexible in layout?",
+    "options": [
+      "grid",
+      "flex",
+      "flexbox",
+      "display:flex"
+    ],
+    "answer": 3
+  },
+
+  {
+    "question": "Which JavaScript method converts JSON to object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.object()"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which HTML tag defines the document title?",
+    "options": [
+      "<title>",
+      "<head>",
+      "<meta>",
+      "<header>"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which CSS property rounds element corners?",
+    "options": [
+      "corner-radius",
+      "border-radius",
+      "radius",
+      "round-border"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which JavaScript method converts object to JSON?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.toObject()",
+      "JSON.build()"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which HTML tag defines the footer section?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<section>",
+      "<end>"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which CSS property controls element position?",
+    "options": [
+      "position",
+      "layout",
+      "display",
+      "align"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which JavaScript event occurs when a button is clicked?",
+    "options": [
+      "onclick",
+      "onpress",
+      "onchange",
+      "onhover"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which HTML tag defines a section?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<block>",
+      "<area>"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which CSS layout system uses rows and columns?",
+    "options": [
+      "flexbox",
+      "grid",
+      "block",
+      "inline"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which JavaScript object represents the webpage?",
+    "options": [
+      "DOM",
+      "BOM",
+      "HTML",
+      "Document"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which HTML tag groups content?",
+    "options": [
+      "<group>",
+      "<div>",
+      "<span>",
+      "<section>"
+    ],
+    "answer": 1
+  },
+
+  {
+    "question": "Which CSS property sets transparency?",
+    "options": [
+      "opacity",
+      "transparent",
+      "alpha",
+      "visibility"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Which JavaScript method selects an element by ID?",
+    "options": [
+      "getElementById()",
+      "querySelector()",
+      "getById()",
+      "selectId()"
+    ],
+    "answer": 0
+  }
+]

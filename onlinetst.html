@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quizContainer">
+      <h1>Online Test</h1>
+      <div id="timer"> Time: 30</div>
+      <div id="question">Loading question</div>
+      <div id="options"></div>
+      <button id="Nextbtn">Next</button>
+    </div>
+    <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script>
+    (function(){
+     emailjs.init("DKUMkQFnmK2lbzfsj");
+    })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTest Hub</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">
+      <img src="images/tonic-logo.png" alt="Tonic logo">
+    </div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#instructions">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="home">
+    <div class="home-text">
+      <h1>Welcome to <span class="platform">DevTest Hub</span></h1>
+
+      <p>
+        <span class="platform">DevTest Hub</span> is an online testing platform created by 
+        <span class="developer">Tonic</span> to evaluate and strengthen your understanding of 
+         <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> fundamentals 
+         through structured beginner-friendly questions.
+      </p>
+
+      <button id="getStartedBtn">Get Started</button>
+    </div>
+
+    <!-- Removed image for cleaner professional look -->
+    <div class="home-image"></div>
+  </section>
+
+  <!-- INSTRUCTIONS -->
+  <section id="instructions">
+    <h2>Assessment Instructions</h2>
+
+    <div class="instruction-container">
+
+      <div class="instruction-card">
+        <h3>⏱ Time Limit</h3>
+        <p>The quiz is timed. Complete all questions before time expires.</p>
+      </div>
+
+      <div class="instruction-card">
+        <h3>🔒 Single Attempt</h3>
+        <p>Each participant is allowed only one attempt.</p>
+      </div>
+
+      <div class="instruction-card">
+        <h3>📧 Results</h3>
+        <p>Your score will be calculated and sent to your email.</p>
+      </div>
+
+      <div class="instruction-card">
+        <h3>🌐 Connection</h3>
+        <p>Ensure a stable internet connection during the assessment.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p>
+      <i class="fa-solid fa-phone"></i>
+      <strong>Phone:</strong> 0736753641
+    </p>
+
+    <p>
+      <i class="fa-solid fa-envelope"></i>
+      <strong>Email:</strong>
+      <a href="mailto:tonicmatimu@gmail.com">tonicmatimu@gmail.com</a>
+    </p>
+
+    <p>
+      <i class="fa-brands fa-linkedin"></i>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/tonic-mkhari-74860630b" target="_blank">
+        View Profile
+      </a>
+    </p>
+  </section>
+
+  <!-- FORM POPUP -->
+  <div class="form-container" id="formContainer">
+    <div class="form-box">
+      <h2>Enter Your Details</h2>
+
+      <input type="text" id="username" placeholder="Full Name">
+      <input type="email" id="email" placeholder="Email Address">
+
+      <a href="onlinetst.html">
+        <button id="startQuizBtn">Start Assessment</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script>
+    (function(){
+      emailjs.init("DKUMkQFnmK2lbzfsj");
+    })();
+  </script>
+
+  <!-- Your Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
